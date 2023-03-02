@@ -1,0 +1,4 @@
+Write the following text into terminal:
+pyinstaller --onefile --noconsole <script name>
+
+The newly created exe is in the dist folder
