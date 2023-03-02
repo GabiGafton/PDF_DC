@@ -113,6 +113,8 @@ def input_file(user_input):
     # writes the output file
     with open(user_input.rsplit(".pdf")[0] + "_stamped.pdf", "wb") as output:
         pdf_writer.write(output)
+    # with open(text_entry + ".pdf", "wb") as output:
+    #     pdf_writer.write(output)
 
     # deletes the temporary stamp file
     if os.path.exists(os.getcwd() + "watermark.pdf"):
